@@ -1,0 +1,72 @@
+  /* Linked Styles */
+  body {
+    padding:0 !important;
+    margin:0 !important;
+    display:block !important; min-width:100% !important;
+    width:100% !important; background:#1d1d1d; -webkit-text-size-adjust:none
+  }
+  a {
+    color:#ffffff;
+    text-decoration:none
+  }
+  p { padding:0 !important;
+    margin:0 !important
+  }
+  img { -ms-interpolation-mode: bicubic; /* Allow smoother rendering of resized image in Internet Explorer */ }
+  .mcnPreviewText { display: none !important; }
+
+  /* Mobile styles */
+  @media only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
+    .mobile-shell { width: 100% !important; min-width: 100% !important; }
+
+    .m-center { text-align: center !important; }
+
+    .center { margin: 0 auto !important; }
+    .td { width: 100% !important; min-width: 100% !important; }
+    .m-br-15 { height: 15px !important; }
+    .m-td,
+    .m-hide { display: none !important; width: 0 !important; height: 0 !important; font-size: 0 !important; line-height: 0 !important; min-height: 0 !important; }
+
+    .m-block { display: block !important; }
+    .m-auto { height: auto !important; }
+
+    .fluid-img img { width: 100% !important; max-width: 100% !important; height: auto !important; }
+    .bg { -webkit-background-size: cover !important; background-size: cover !important; background-repeat: none !important; background-position: center 0 !important; }
+
+    .p20-15 { padding: 20px 15px !important; }
+    .p30-15 { padding: 30px 15px !important; }
+    .p30-15-0 { padding: 30px 15px 0px 15px !important; }
+    .pb-30 { padding-bottom: 30px !important; }
+    .pb-30-0 { padding: 30px 0px !important; }
+
+    .nopt { padding-top: 0px !important; }
+    .nobb { border-bottom: none !important; }
+    .nop { padding: 0 !important; }
+    .content { padding: 30px 15px !important; }
+    .bt150 { border-top: 30px solid #ffffff !important; }
+    .entry { padding-bottom: 30px !important; }
+    .pb60m { padding-bottom: 0px !important; }
+
+    .separator { padding-top: 30px !important; }
+    .box { padding: 30px 15px !important; }
+    .box2 { padding: 30px 15px !important; }
+    .pb60 { padding-bottom: 30px !important; }
+
+    .h2 { font-size: 44px !important; line-height: 48px !important; }
+    .title { font-size: 24px !important; line-height: 28px !important; }
+    .m-list { font-size: 18px !important; line-height: 22px !important; }
+    .text-footer { text-align: center !important; }
+
+    .column,
+    .column-top,
+    .column-dir,
+    .column-empty,
+    .column-empty2,
+    .column-bottom,
+    .column-dir-top,
+    .column-dir-bottom { float: left !important; width: 100% !important; display: block !important; }
+
+    .column-empty { padding-bottom: 10px !important; }
+    .column-empty2 { padding-bottom: 30px !important; }
+    .content-spacing { width: 15px !important; }
+  }
